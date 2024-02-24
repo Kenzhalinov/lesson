@@ -1,47 +1,71 @@
-﻿//Console.WriteLine("Hello C#");
+﻿using System;
+using System.Linq;
 
-/*
-Целый типы данных
-    int 
-    long 
-Вещественные типы данных 
-    float
-    double 
-Символьные типы данных 
-    char 
-Логические 
-    bool
-*/
-// int value1 =10;
-// int value2 = 3;
-// double dobl = 5.55;
-// char str = '!';
-// bool flot = true;
-// Console.WriteLine(value1/2);
-// Console.WriteLine(dobl);
-// Console.WriteLine(str);
-// Console.WriteLine(flot);
+//Тело класса будет написано студентом. Класс обязан иметь статический метод PrintResult()
+class UserInputToCompileForTest
+{ 
+    // Разница между максимальным и минимальным элементами массива
+    
+    // Нахождение минимума массива
+    public static double FindMin(double[] numbers)
+    {
+        //Напишите свое решение здесь
+        double min =numbers[1];
+        int len = numbers.Length ;
+      for (int i =1;i<len;i++){
+        if (min > numbers[i]){
+          min = numbers[i];
+        };
+      };
+      return min;
+    }
+    
+    // Нахождение максимума массива
+    public static double FindMax(double[] numbers)
+    {
+        //Напишите свое решение здесь
+      double max =numbers[1];
+      int len = numbers.Length ;
+      for (int i =1;i<len;i++){
+        if (max < numbers[i]){
+          max = numbers[i];
+        };
+      };
+      return max;
+    }
+    
+    
+    
+    public static void PrintResult(double[] array)
+    {
+        //Напишите свое решение здесь
+      Console.WriteLine(FindMax(array)-FindMin(array));
+    }
+}
 
-// double sumDobl = dobl-value1;
-// Console.WriteLine(sumDobl);
+//Не удаляйте и не меняйте класс Answer!
+class Answer
+{
+    public static void Main(string[] args)
+    {
+        double[] array;
+        
 
-// double sum2 = value1/value2;
-// Console.WriteLine(sum2);
+        if (args.Length >= 1) {
+            // Объединяем все аргументы командной строки в одну строку
+            string joinedArgs = string.Join(" ", args);
 
-// double a =3;
-// int b =4;
-// int c =2;
-// int d = 6;
-// double res = ((a*b)/(c+d));
-// Console.WriteLine(res);
-
-int a=5 ;
-int b = 9;
-int res = 0;
-if (a>b) {
-    res = a;
-}else{
-    res=b;
-};
-
-Console.WriteLine(res);
+            // Разделяем строку по запятой с пробелом и преобразуем в массив целых чисел
+            array = joinedArgs.Split(", ")
+                                  .Select(double.Parse)
+                                  .ToArray();
+            
+            // Теперь arr содержит преобразованные в целые числа из командной строки
+        
+        } else {
+           // Если аргументов на входе нет
+            array = new double[] {0.25, 5.4, 1.3, 2.1, 3.8, 5.2, 3.01}; // Создание массива
+        }
+        UserInputToCompileForTest.PrintResult(array);
+    }
+}
