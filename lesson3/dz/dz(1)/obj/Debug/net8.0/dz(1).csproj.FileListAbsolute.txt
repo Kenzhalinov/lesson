@@ -1,0 +1,15 @@
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\dz(1).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\dz(1).AssemblyInfoInputs.cache
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\dz(1).AssemblyInfo.cs
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\dz(1).csproj.CoreCompileInputs.cache
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\dz(1).sourcelink.json
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\bin\Debug\net8.0\dz(1).exe
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\bin\Debug\net8.0\dz(1).deps.json
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\bin\Debug\net8.0\dz(1).runtimeconfig.json
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\bin\Debug\net8.0\dz(1).dll
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\bin\Debug\net8.0\dz(1).pdb
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\dz(1).dll
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\refint\dz(1).dll
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\dz(1).pdb
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\dz(1).genruntimeconfig.cache
+C:\Users\mkenz\Desktop\c#Education\lesson\lesson3\dz\dz(1)\obj\Debug\net8.0\ref\dz(1).dll
